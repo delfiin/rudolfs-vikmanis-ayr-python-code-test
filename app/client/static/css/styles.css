@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(-60deg, #5ac59a, #97F3EE);
+  padding: 50px;
+  min-height: 100vh;
+}
+
+.content {
+  max-width: 800px;
+  background-color: white;
+  padding: 50px;
+  margin: 0 auto;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  margin: 0;
+}

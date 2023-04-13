@@ -1,0 +1,6 @@
+.env
+venv
+__pycache__
+instance
+node_modules
+app/client/static/output
