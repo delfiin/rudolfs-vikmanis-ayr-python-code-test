@@ -61,6 +61,11 @@ to the original, longer, url, and should also track how many visits a shortened 
 In the root of the project:
 
 ```bash
+# Create .env file with required variable
+echo "SQLALCHEMY_DATABASE_URI=sqlite:///db.sqlite3" > .env
+```
+
+```bash
 # Create a virtual environment for the project and activate it
 python -m venv venv
 source venv/bin/activate
