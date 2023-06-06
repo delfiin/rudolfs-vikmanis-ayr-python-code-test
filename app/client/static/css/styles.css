@@ -17,10 +17,84 @@ body {
   padding: 50px;
   margin: 0 auto;
   border-radius: 20px;
-  text-align: center;
   box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.1);
 }
 
 .title {
+  text-align: center;
   margin: 0;
+}
+
+#app {
+  margin-top: 25px;
+}
+
+a {
+  color: #0c647a;
+  text-decoration: underline;
+}
+
+input {
+  border: 1px solid #888;
+  border-radius: 9px;
+  padding: 8px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #0c647a;
+}
+
+button {
+  padding: 8px;
+  background: #0c647a;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px solid #0c647a;
+  border-radius: 9px;
+}
+
+button:disabled {
+  border: 1px solid #888;
+  background: #888;
+}
+
+.url-input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.url-input-container input {
+  flex: 1;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: 0;
+}
+
+.url-input-container button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.loading-indicator {
+  text-align: center;
+}
+
+.message {
+  background: #add8e6;
+  border-radius: 9px;
+  padding: 10px;
+  color: #0f5f79;
+}
+
+.message.status-error {
+  background: #e6adad;
+  color: #790f0f;
+}
+
+.message.status-success {
+  background: #b7e6ad;
+  color: #28790f;
 }
